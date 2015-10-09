@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 RAILS_VERSION = '~> 4.2.0'
 
@@ -54,6 +54,11 @@ gem 'omniauth-github'
 gem 'ri_cal'
 gem 'yajl-ruby', platform: 'ruby'
 gem 'json', platform: 'jruby'
+
+
+gem 'puma'
+gem 'mina'
+gem 'mina-puma', :require => false
 
 group :development, :test do
   gem 'airbrake', :require => false
